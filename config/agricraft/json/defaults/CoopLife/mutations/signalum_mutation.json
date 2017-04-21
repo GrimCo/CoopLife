@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/signalum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "signalum_plant",
+  "parent1": "redstodendron_plant",
+  "parent2": "copper_plant"
+}

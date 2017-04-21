@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/rottendendron_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "rottendendron_plant",
+  "parent1": "beet_plant",
+  "parent2": "cactus_plant"
+}

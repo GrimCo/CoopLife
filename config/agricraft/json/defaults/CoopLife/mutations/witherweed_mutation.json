@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/witherweed_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "witherweed_plant",
+  "parent1": "blackquartz",
+  "parent2": "bonebloom_plant"
+}

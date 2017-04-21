@@ -1,0 +1,14 @@
+{
+    "chickens.ChickensChicken": {
+        "abilities": ["glide"],
+        "action": "",
+        "health": 20,
+        "hostile": false
+    },
+    "Rooster": {
+        "abilities": ["glide"],
+        "action": "",
+        "health": 20,
+        "hostile": false
+    }
+}

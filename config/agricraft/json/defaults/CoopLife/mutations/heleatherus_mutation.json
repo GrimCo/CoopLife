@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/heleatherus_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "heleatherus_plant",
+  "parent1": "beet_plant",
+  "parent2": "melon_plant"
+}

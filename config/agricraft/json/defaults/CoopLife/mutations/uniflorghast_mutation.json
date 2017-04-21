@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/uniflorghast_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "uniflorghast_plant",
+  "parent1": "sulfur",
+  "parent2": "nitorwart_plant"
+}

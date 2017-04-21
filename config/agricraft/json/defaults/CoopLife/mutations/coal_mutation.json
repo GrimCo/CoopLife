@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/coal_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "coal_plant",
+  "parent1": "potato_plant",
+  "parent2": "cactus_plant"
+}

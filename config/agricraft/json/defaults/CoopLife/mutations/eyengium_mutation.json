@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/eyengium_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "eyengium_plant",
+  "parent1": "heleatherus_plant",
+  "parent2": "cotton_crop"
+}

@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/saltpeter_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "saltpeter",
+  "parent1": "sugarcane_plant",
+  "parent2": "rice_crop"
+}

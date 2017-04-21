@@ -1,0 +1,18 @@
+{
+  "path": "CoopLife/soils/end_stone_soil.json",
+  "enabled": true,
+  "id": "end_stone_soil",
+  "name": "End Stone",
+  "varients": [
+    {
+      "item": "minecraft:end_stone",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

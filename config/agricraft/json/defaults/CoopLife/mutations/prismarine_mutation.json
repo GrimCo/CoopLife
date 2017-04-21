@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/prismarine_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "prismarine_plant",
+  "parent1": "diamahlia_plant",
+  "parent2": "uniflorghast_plant"
+}

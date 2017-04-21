@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/aluminum_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "aluminum_plant",
+  "parent1": "wheat_plant",
+  "parent2": "sugarcane_plant"
+}

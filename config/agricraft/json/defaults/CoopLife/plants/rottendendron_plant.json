@@ -1,0 +1,60 @@
+{
+  "path": "CoopLife/plants/rottendendron_plant.json",
+  "enabled": true,
+  "id": "rottendendron_plant",
+  "plant_name": "Rottendendron",
+  "seed_name": "Rottendendron Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "Past it\u0027s best...."
+  },
+  "growth_chance": 0.8,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.3,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:rotten_flesh",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "gravel_soil"
+    ],
+    "bases": [],
+    "nearby": {}
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedRottendendron",
+    "plant_textures": [
+      "agricraft:blocks/cropRottendendron1",
+      "agricraft:blocks/cropRottendendron1",
+      "agricraft:blocks/cropRottendendron2",
+      "agricraft:blocks/cropRottendendron2",
+      "agricraft:blocks/cropRottendendron3",
+      "agricraft:blocks/cropRottendendron3",
+      "agricraft:blocks/cropRottendendron4",
+      "agricraft:blocks/cropRottendendron4"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/steel_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "steel",
+  "parent1": "coal_plant",
+  "parent2": "ferranium_plant"
+}

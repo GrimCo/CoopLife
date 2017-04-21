@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/invar_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "invar_plant",
+  "parent1": "ferranium_plant",
+  "parent2": "nickel_plant"
+}

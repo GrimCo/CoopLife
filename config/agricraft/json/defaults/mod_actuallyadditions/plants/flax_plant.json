@@ -1,0 +1,72 @@
+{
+  "path": "mod_actuallyadditions/plants/flax_plant.json",
+  "enabled": true,
+  "id": "flax_plant",
+  "plant_name": "Flax",
+  "seed_name": "Flax Seeds",
+  "seed_items": [
+    {
+      "item": "actuallyadditions:itemFlaxSeed",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": false
+    }
+  ],
+  "description": {
+    "translations": {},
+    "default": "Tie a little string around your finger."
+  },
+  "growth_chance": 0.8,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 3,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:string",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": true,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 8,
+    "max_light": 16,
+    "soils": [
+      "farmland_soil",
+      "fertilized_farmland"
+    ],
+    "bases": [],
+    "nearby": {}
+  },
+  "texture": {
+    "render_type": "cross",
+    "seed_texture": "actuallyadditions:items/itemFlaxSeed",
+    "plant_textures": [
+      "actuallyadditions:blocks/blockFlaxStage1",
+      "actuallyadditions:blocks/blockFlaxStage1",
+      "actuallyadditions:blocks/blockFlaxStage2",
+      "actuallyadditions:blocks/blockFlaxStage2",
+      "actuallyadditions:blocks/blockFlaxStage3",
+      "actuallyadditions:blocks/blockFlaxStage4",
+      "actuallyadditions:blocks/blockFlaxStage5",
+      "actuallyadditions:blocks/blockFlaxStage6"
+    ]
+  }
+}

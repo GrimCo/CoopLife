@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/nickel_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "nickel_plant",
+  "parent1": "copper_plant",
+  "parent2": "aluminum_plant"
+}

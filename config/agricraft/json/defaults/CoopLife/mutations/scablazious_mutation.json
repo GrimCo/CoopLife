@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/scablazious_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "scablazious_plant",
+  "parent1": "saltpeter",
+  "parent2": "sulfur"
+}

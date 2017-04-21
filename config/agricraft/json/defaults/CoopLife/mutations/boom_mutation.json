@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/boom_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "boom_plant",
+  "parent1": "slimeflower_plant",
+  "parent2": "saltpeter"
+}

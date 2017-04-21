@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/enderbore_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "enderbore_plant",
+  "parent1": "enderium_plant",
+  "parent2": "eyengium_plant"
+}

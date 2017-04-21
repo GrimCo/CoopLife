@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/mana_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "mana_plant",
+  "parent1": "redstodendron_plant",
+  "parent2": "quartzanthemum_plant"
+}

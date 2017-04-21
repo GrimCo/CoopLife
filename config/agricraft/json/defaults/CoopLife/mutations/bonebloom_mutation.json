@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/bonebloom_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bonebloom_plant",
+  "parent1": "beet_plant",
+  "parent2": "pumpkin_plant"
+}
