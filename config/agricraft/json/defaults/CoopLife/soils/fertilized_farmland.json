@@ -1,0 +1,18 @@
+{
+  "path": "CoopLife/soils/fertilized_farmland.json",
+  "enabled": true,
+  "id": "fertilized_farmland",
+  "name": "Fertilized Farmland",
+  "varients": [
+    {
+      "item": "hatchery:fertilized_farmland",
+      "meta": 7,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

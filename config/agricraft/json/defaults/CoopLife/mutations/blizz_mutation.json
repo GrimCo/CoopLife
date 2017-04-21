@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/blizz_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "blizz_plant",
+  "parent1": "scablazious_plant",
+  "parent2": "enderbore_plant"
+}

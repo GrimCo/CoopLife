@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/blitz_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "blitz_plant",
+  "parent1": "scablazious_plant",
+  "parent2": "uniflorghast_plant"
+}

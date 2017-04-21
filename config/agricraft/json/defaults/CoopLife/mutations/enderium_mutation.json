@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/enderium_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "enderium_plant",
+  "parent1": "ferranium_plant",
+  "parent2": "mana_plant"
+}

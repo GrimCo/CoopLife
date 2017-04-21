@@ -1,0 +1,60 @@
+{
+  "path": "CoopLife/plants/slimeflower_plant.json",
+  "enabled": true,
+  "id": "slimeflower_plant",
+  "plant_name": "Slimeflower",
+  "seed_name": "Slimeflower Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "A slimey bloom."
+  },
+  "growth_chance": 0.8,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:slime_ball",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "gravel_soil"
+    ],
+    "bases": [],
+    "nearby": {}
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedSlimeflower",
+    "plant_textures": [
+      "agricraft:blocks/cropSlimeflower1",
+      "agricraft:blocks/cropSlimeflower1",
+      "agricraft:blocks/cropSlimeflower2",
+      "agricraft:blocks/cropSlimeflower2",
+      "agricraft:blocks/cropSlimeflower3",
+      "agricraft:blocks/cropSlimeflower3",
+      "agricraft:blocks/cropSlimeflower4",
+      "agricraft:blocks/cropSlimeflower4"
+    ]
+  }
+}

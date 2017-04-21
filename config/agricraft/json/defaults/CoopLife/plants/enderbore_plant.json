@@ -1,0 +1,60 @@
+{
+  "path": "CoopLife/plants/enderbore_plant.json",
+  "enabled": true,
+  "id": "enderbore_plant",
+  "plant_name": "Enderbore",
+  "seed_name": "Enderbore Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": "Don\u0027t. Even. Blink."
+  },
+  "growth_chance": 0.8,
+  "growth_bonus": 0.025,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.3,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.95,
+        "required": true,
+        "item": "minecraft:ender_pearl",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "gravel_soil"
+    ],
+    "bases": [],
+    "nearby": {}
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedEnderbore",
+    "plant_textures": [
+      "agricraft:blocks/cropEnderbore1",
+      "agricraft:blocks/cropEnderbore1",
+      "agricraft:blocks/cropEnderbore2",
+      "agricraft:blocks/cropEnderbore2",
+      "agricraft:blocks/cropEnderbore3",
+      "agricraft:blocks/cropEnderbore3",
+      "agricraft:blocks/cropEnderbore4",
+      "agricraft:blocks/cropEnderbore4"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/uranium_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "uranium",
+  "parent1": "lumium_plant",
+  "parent2": "signalum_plant"
+}

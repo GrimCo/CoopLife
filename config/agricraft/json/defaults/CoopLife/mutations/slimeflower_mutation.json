@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/slimeflower_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "slimeflower_plant",
+  "parent1": "heleatherus_plant",
+  "parent2": "rottendendron_plant"
+}

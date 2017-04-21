@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/basalz_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "basalz_plant",
+  "parent1": "scablazious_plant",
+  "parent2": "witherweed_plant"
+}

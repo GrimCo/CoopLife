@@ -1,0 +1,18 @@
+{
+  "path": "CoopLife/soils/humus.json",
+  "enabled": true,
+  "id": "humus",
+  "name": "Humus",
+  "varients": [
+    {
+      "item": "forestry:humus",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/mithril_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "mithril_plant",
+  "parent1": "mana_plant",
+  "parent2": "ferranium_plant"
+}

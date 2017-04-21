@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/bronze_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "bronze_plant",
+  "parent1": "copper_plant",
+  "parent2": "tin"
+}

@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/lumium_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "lumium_plant",
+  "parent1": "tin",
+  "parent2": "nitorwart_plant"
+}

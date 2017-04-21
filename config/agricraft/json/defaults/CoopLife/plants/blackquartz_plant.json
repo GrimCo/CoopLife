@@ -1,0 +1,60 @@
+{
+  "path": "CoopLife/plants/blackquartz_plant.json",
+  "enabled": true,
+  "id": "blackquartz",
+  "plant_name": "Black Quartz Plant",
+  "seed_name": "Black Quartz Seeds",
+  "seed_items": [],
+  "description": {
+    "translations": {},
+    "default": ""
+  },
+  "growth_chance": 1.0,
+  "growth_bonus": 0.025,
+  "bonemeal": true,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "grass_drop_chance": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.95,
+        "required": true,
+        "item": "actuallyadditions:itemMisc",
+        "meta": 5,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "gravel_soil"
+    ],
+    "bases": [],
+    "nearby": {}
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedcoal",
+    "plant_textures": [
+      "agricraft:blocks/seedBasic1",
+      "agricraft:blocks/seedBasic1",
+      "agricraft:blocks/seedBasic2",
+      "agricraft:blocks/seedBasic2",
+      "agricraft:blocks/seedBasic2",
+      "agricraft:blocks/seedBasic3",
+      "agricraft:blocks/seedBasic3",
+      "agricraft:blocks/seedCoal4"
+    ]
+  }
+}

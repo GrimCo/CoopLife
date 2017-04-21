@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/blackquartz_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "blackquartz",
+  "parent1": "quartzanthemum_plant",
+  "parent2": "coal_plant"
+}

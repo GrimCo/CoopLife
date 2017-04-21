@@ -1,0 +1,8 @@
+{
+  "path": "CoopLife/mutations/sulfur_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "sulfur",
+  "parent1": "saltpeter",
+  "parent2": "nitorwart_plant"
+}
