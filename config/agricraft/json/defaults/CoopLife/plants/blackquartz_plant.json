@@ -47,13 +47,13 @@
     "render_type": "hash",
     "seed_texture": "agricraft:items/seedcoal",
     "plant_textures": [
-      "agricraft:blocks/seedBasic1",
-      "agricraft:blocks/seedBasic1",
-      "agricraft:blocks/seedBasic2",
-      "agricraft:blocks/seedBasic2",
-      "agricraft:blocks/seedBasic2",
-      "agricraft:blocks/seedBasic3",
-      "agricraft:blocks/seedBasic3",
+      "agricraft:blocks/cropBasic1",
+      "agricraft:blocks/cropBasic1",
+      "agricraft:blocks/cropBasic2",
+      "agricraft:blocks/cropBasic2",
+      "agricraft:blocks/cropBasic2",
+      "agricraft:blocks/cropBasic3",
+      "agricraft:blocks/cropBasic3",
       "agricraft:blocks/seedCoal4"
     ]
   }
