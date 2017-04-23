@@ -15,3 +15,9 @@ recipes.addShaped(<actuallyadditions:itemMisc:5>,
 [[<minecraft:quartz>, <ore:coal>, null],
 [null, null, null],
 [null, null, null]]);
+
+recipes.addShaped(<actuallyadditions:itemMisc:5>,
+[[<minecraft:quartz>, <ore:charcoal>, null],
+[null, null, null],
+[null, null, null]]);
+
