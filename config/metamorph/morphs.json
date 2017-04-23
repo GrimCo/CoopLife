@@ -12,9 +12,9 @@
         "hostile": false
     },
        "forestry.butterflyGE": {
-        "abilities": ["fly"],
+        "abilities": ["glide"],
         "action": "",
-        "health": 10,
+        "health": 20,
         "hostile": false
     }
 }
