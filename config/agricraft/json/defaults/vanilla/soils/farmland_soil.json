@@ -23,6 +23,16 @@
         "*"
       ],
       "useOreDict": true
-	}
+	},
+	{
+      "item": "forestry:humus",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
   ]
 }
