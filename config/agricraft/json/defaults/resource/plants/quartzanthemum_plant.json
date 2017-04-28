@@ -40,9 +40,7 @@
     "soils": [
       "soul_sand_soil"
     ],
-    "bases": [
-      "minecraft:quartz_ore"
-    ],
+    "bases": [],
     "nearby": {}
   },
   "texture": {

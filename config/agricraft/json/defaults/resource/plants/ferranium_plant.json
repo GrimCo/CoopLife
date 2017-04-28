@@ -25,7 +25,7 @@
         "max": 2,
         "chance": 0.95,
         "required": true,
-        "item": "minecraft:iron_ingot",
+        "item": "thermalfoundation:material",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -40,9 +40,7 @@
     "soils": [
       "gravel_soil"
     ],
-    "bases": [
-      "minecraft:iron_ore"
-    ],
+    "bases": [],
     "nearby": {}
   },
   "texture": {

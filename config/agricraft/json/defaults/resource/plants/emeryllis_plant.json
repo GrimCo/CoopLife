@@ -40,9 +40,7 @@
     "soils": [
       "gravel_soil"
     ],
-    "bases": [
-      "minecraft:emerald_ore"
-    ],
+    "bases": [],
     "nearby": {}
   },
   "texture": {
