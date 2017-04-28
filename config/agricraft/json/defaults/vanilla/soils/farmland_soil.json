@@ -13,6 +13,16 @@
         "*"
       ],
       "useOreDict": true
-    }
+    },
+	{
+	  "item": "hatchery:fertilized_farmland",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+	}
   ]
 }
