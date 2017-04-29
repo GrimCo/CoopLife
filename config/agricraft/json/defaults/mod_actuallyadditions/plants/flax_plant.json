@@ -49,8 +49,7 @@
     "min_light": 8,
     "max_light": 16,
     "soils": [
-      "farmland_soil",
-      "fertilized_farmland"
+      "farmland_soil"
     ],
     "bases": [],
     "nearby": {}

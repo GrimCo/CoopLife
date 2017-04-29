@@ -49,8 +49,7 @@
     "min_light": 8,
     "max_light": 16,
     "soils": [
-      "farmland_soil",
-      "fertilized_farmland"
+      "farmland_soil"
     ],
     "bases": [],
     "nearby": {}
@@ -60,11 +59,11 @@
     "seed_texture": "actuallyadditions:items/item_coffee_seed",
     "plant_textures": [
       "actuallyadditions:blocks/blockCoffeeStage1",
+      "actuallyadditions:blocks/blockCoffeeStage1",
       "actuallyadditions:blocks/blockCoffeeStage2",
       "actuallyadditions:blocks/blockCoffeeStage3",
+      "actuallyadditions:blocks/blockCoffeeStage3",
       "actuallyadditions:blocks/blockCoffeeStage4",
-      "actuallyadditions:blocks/blockCoffeeStage4",
-      "actuallyadditions:blocks/blockCoffeeStage5",
       "actuallyadditions:blocks/blockCoffeeStage5",
       "actuallyadditions:blocks/blockCoffeeStage6"
     ]

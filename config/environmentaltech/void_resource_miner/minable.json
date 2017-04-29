@@ -354,7 +354,19 @@
       "meta": 0,
       "focusColor": "black",
       "weight": 2
-    }
+    },
+	{
+	  "id": "railcraft:generic",
+	  "meta": 8,
+	  "focusColor": "black",
+	  "weight": 6
+	},
+	{
+	  "id": "railcraft:generic",
+	  "meta": 9,
+	  "focusColor": "white",
+	  "weight": 6
+	}
   ],
   "oreDict": []
 }

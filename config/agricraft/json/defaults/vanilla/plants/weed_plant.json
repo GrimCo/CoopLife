@@ -28,7 +28,9 @@
       "farmland_soil",
       "gravel_soil",
       "grass_soil",
-      "sand_soil"
+      "sand_soil",
+	  "mycelium_soil",
+	  "podzol_soil"
     ],
     "bases": [],
     "nearby": {}
