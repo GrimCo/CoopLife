@@ -13,6 +13,16 @@
         "*"
       ],
       "useOreDict": true
+    },
+	{
+      "item": "railcraft:generic",
+      "meta": 7,
+      "tags": "",
+      "ignoreMeta": false,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
     }
   ]
 }

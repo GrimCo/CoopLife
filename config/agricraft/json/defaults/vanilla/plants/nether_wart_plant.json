@@ -46,7 +46,7 @@
     ]
   },
   "requirement": {
-    "min_light": 10,
+    "min_light": 0,
     "max_light": 16,
     "soils": [
       "soul_sand_soil"

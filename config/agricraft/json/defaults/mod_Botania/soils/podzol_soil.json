@@ -13,6 +13,16 @@
         "*"
       ],
       "useOreDict": false
-    }
+    },
+	{
+	  "item": "hatchery:fertilized_dirt",
+	  "meta": 0,
+	  "tags": "",
+	  "ignoreMeta": true,
+	  "ignoreTags": [
+	    "*"
+	  ],
+	  "useOreDict": false
+	}
   ]
 }

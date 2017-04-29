@@ -13,6 +13,16 @@
         "*"
       ],
       "useOreDict": true
-    }
+    },
+	{
+      "item": "snad:snad",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }	
   ]
 }
