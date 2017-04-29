@@ -73,3 +73,5 @@ recipes.addShaped(<railcraft:generic:7> * 2,
 	[[null, <ore:dustObsidian>, null],
 	[<ore:dustObsidian>, <minecraft:gravel>, <ore:dustObsidian>],
 	[null, <ore:dustObsidian>, null]]);
+//Railcraft Creosote Wood Block Recipe
+recipes.addShapeless(<railcraft:generic:5>, [<forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}),<ore:logWood>]);
