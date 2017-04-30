@@ -75,3 +75,22 @@ recipes.addShaped(<railcraft:generic:7> * 2,
 	[null, <ore:dustObsidian>, null]]);
 //Railcraft Creosote Wood Block Recipe
 recipes.addShapeless(<railcraft:generic:5>, [<forge:bucketFilled>.withTag({FluidName: "creosote", Amount: 1000}),<ore:logWood>]);
+//AgriCraft
+//Here we go...
+var nuggetMeta = [0,1,2,3,4,5,6,7,8,9,10,11,12] as int[];
+for i in nuggetMeta {
+var item = <agricraft:agri_nugget>.definition.makeStack(i);
+recipes.remove(item);
+}
+//And for good measure make existing ones usable
+<ore:nuggetEmerald>.add(<agricraft:agri_nugget:0>);
+<ore:nuggetDiamond>.add(<agricraft:agri_nugget:1>);
+<ore:nuggetQuartz>.add(<agricraft:agri_nugget:2>);
+<ore:nuggetIron>.add(<agricraft:agri_nugget:3>);
+<ore:nuggetCopper>.add(<agricraft:agri_nugget:4>);
+<ore:nuggetTin>.add(<agricraft:agri_nugget:5>);
+<ore:nuggetLead>.add(<agricraft:agri_nugget:6>);
+<ore:nuggetSilver>.add(<agricraft:agri_nugget:7>);
+<ore:nuggetAluminum>.add(<agricraft:agri_nugget:8>);
+<ore:nuggetNickel>.add(<agricraft:agri_nugget:9>);
+<ore:nuggetPlatinum>.add(<agricraft:agri_nugget:10>);
