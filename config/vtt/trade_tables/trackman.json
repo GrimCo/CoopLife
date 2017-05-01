@@ -1,0 +1,9 @@
+{ 
+	Profession: "railcraft:trackman", 
+	Career: "trackman",
+	Offers:{
+		Recipes:[
+			{action:"clear"}
+		]
+	}
+}
