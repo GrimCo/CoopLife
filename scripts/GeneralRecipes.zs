@@ -1,3 +1,5 @@
+import minetweaker.item.IItemStack;
+
 //Recipe Removals
 recipes.remove(<extrautils2:itembuilderswand>);
 recipes.remove(<craftingtableiv:craftingtableiv>);
@@ -18,6 +20,9 @@ recipes.addShaped(<minecraft:blaze_rod>,
 //Convert Wheat into Seeds
 recipes.addShapeless(<minecraft:wheat_seeds>,[<minecraft:wheat>]);
 
+//Carrot to Carrot Seeds
+recipes.addShapeless(<agricraft:agri_seed>.withTag({agri_analyzed: 0 as byte, agri_strength: 1 as byte, agri_gain: 1 as byte, agri_seed: "carrot_plant", agri_growth: 1 as byte}),[<minecraft:carrot>]);
+
 //Name Tags
 recipes.addShaped(<minecraft:name_tag>, [[null, null, <ore:string>], [null, <thermalfoundation:material:832>, null], [<ore:paper>, null, null]]);
 
@@ -31,6 +36,7 @@ recipes.addShapeless(<actuallyadditions:itemMisc:5>,[<minecraft:quartz>,<minecra
 recipes.addShaped(<actuallyadditions:itemMisc:4>,
 	[[<minecraft:wheat>, <minecraft:wheat>],
 	[<minecraft:wheat>, null]]);
+
 //Spawner Shards
 recipes.addShaped(<actuallyadditions:itemMisc:20>,
 	[[<darkutils:material:0>,<minecraft:iron_bars>,<darkutils:material:0>],
@@ -50,6 +56,8 @@ recipes.addShaped(<forestry:fertilizerCompound> * 3,
 	[[<ore:manure>, <ore:manure>, <ore:manure>],
 	[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>],
 	[<ore:manure>, <ore:manure>, <ore:manure>]]);
+	
+furnace.setFuel(<chickens:liquid_egg:1>,20000);
 	
 //Recipe for Log and Flint Chickens	
 recipes.addShapeless(<chickens:spawn_egg:108>, [<ore:listAllegg>, <ore:logWood>]);
@@ -115,3 +123,15 @@ recipes.remove(item);
 <ore:nuggetAluminum>.add(<agricraft:agri_nugget:8>);
 <ore:nuggetNickel>.add(<agricraft:agri_nugget:9>);
 <ore:nuggetPlatinum>.add(<agricraft:agri_nugget:10>);
+
+//Immersive Engineering
+//Wires for all the Shears
+var shears = [<botania:manasteelShears>,<botania:elementiumShears>,<railcraft:tool_shears_steel>,<thermalfoundation:tool.shears_wood>,<thermalfoundation:tool.shears_stone>,<thermalfoundation:tool.shears_diamond>,<thermalfoundation:tool.shears_gold>,<thermalfoundation:tool.shears_copper>,<thermalfoundation:tool.shears_tin>,<thermalfoundation:tool.shears_silver>,<thermalfoundation:tool.shears_lead>,<thermalfoundation:tool.shears_nickel>,<thermalfoundation:tool.shears_platinum>,<thermalfoundation:tool.shears_electrum>,<thermalfoundation:tool.shears_invar>,<thermalfoundation:tool.shears_bronze>] as IItemStack[];
+
+for shear in shears {
+	var tool = shear;	
+	recipes.addShapeless(<immersiveengineering:material:20>,[<ore:plateCopper>, tool.anyDamage().transformDamage()]);
+	recipes.addShapeless(<immersiveengineering:material:21>,[<ore:plateElectrum>, tool.anyDamage().transformDamage()]);
+	recipes.addShapeless(<immersiveengineering:material:22>,[<ore:plateAluminum>, tool.anyDamage().transformDamage()]);
+	recipes.addShapeless(<immersiveengineering:material:23>,[<ore:plateSteel>, tool.anyDamage().transformDamage()]);
+}
