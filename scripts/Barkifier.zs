@@ -118,7 +118,7 @@ recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 13, block: "forestry:
 [[<forestry:logs.fireproof.3:1>,<forestry:logs.fireproof.3:1>]]);
 recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 14, block: "forestry:logs.fireproof.3"}) * 2,
 [[<forestry:logs.fireproof.3:2>,<forestry:logs.fireproof.3:2>]]);
-recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 15e, block: "forestry:logs.fireproof.3"}) * 2,
+recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 15, block: "forestry:logs.fireproof.3"}) * 2,
 [[<forestry:logs.fireproof.3:3>,<forestry:logs.fireproof.3:3>]]);
 recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 12, block: "forestry:logs.fireproof.4"}) * 2, 
 [[<forestry:logs.fireproof.4>,<forestry:logs.fireproof.4>]]);
@@ -145,4 +145,4 @@ recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 14, block: "forestry:
 recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 15, block: "forestry:logs.fireproof.6"}) * 2,
 [[<forestry:logs.fireproof.6:3>,<forestry:logs.fireproof.6:3>]]);
 recipes.addShaped(<barkifier:barkified_log>.withTag({meta: 12, block: "forestry:logs.fireproof.7"}) * 2,
-[[<forestry:logs.fireproof.7>,<forestry:logs.fireproof.6>]]); 
+[[<forestry:logs.fireproof.7>,<forestry:logs.fireproof.7>]]); 
