@@ -9,6 +9,10 @@ recipes.remove(<forestry:stamps:2>);
 recipes.remove(<forestry:stamps:1>);
 recipes.remove(<forestry:stamps>);
 recipes.remove(<forestry:letters>);
+recipes.remove(<harvestcraft:market>);
+<harvestcraft:market>.addTooltip(format.bold("Recipe disabled due to crash"));
+recipes.remove(<harvestcraft:shippingbin>);
+<harvestcraft:shippingbin>.addTooltip(format.bold("Recipe disabled due to crash"));
 
 //Vanilla
 //Convert Blaze Powder to Blaze Rods
