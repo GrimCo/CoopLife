@@ -35,11 +35,11 @@
     "products": [
       {
         "min": 1,
-        "max": 1,
+        "max": 2,
         "chance": 0.75,
         "required": true,
-        "item": "minecraft:dye",
-        "meta": 11,
+        "item": "minecraft:yellow_flower",
+        "meta": 0,
         "tags": "",
         "ignoreMeta": false,
         "ignoreTags": [],
