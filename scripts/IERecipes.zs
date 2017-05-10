@@ -1,12 +1,10 @@
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
-//mods.immersiveengineering.Mixer;
 
-//This is Waiting on IE version 58
-//mods.immersiveengineering.Mixer.addRecipe(<liquid:crystaloil> * 1000, <liquid:oil> * 1000, [<actuallyadditions:itemMisc:23>], 2500);
-//mods.immersiveengineering.Mixer.addRecipe(<liquid:empoweredoil> * 1000, <liquid:crystaloil> * 1000, [<actuallyadditions:itemMisc:24>], 2500);
-//mods.immersiveengineering.Mixer.addRecipe(<liquid:liquid_fertilizer> * 1000, <liquid:water> * 1000, [<hatchery:manure_block>], 2500);
-//mods.immersiveengineering.Mixer.addRecipe(<liquid:liquid_fertilizer> * 100, <liquid:water> * 100, [<hatchery:chickenmanure>], 2500);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:crystaloil> * 1000, <liquid:oil> * 1000, [<actuallyadditions:itemMisc:23>], 2500);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:empoweredoil> * 1000, <liquid:crystaloil> * 1000, [<actuallyadditions:itemMisc:24>], 2500);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:liquid_fertilizer> * 1000, <liquid:water> * 1000, [<hatchery:manure_block>], 2500);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:liquid_fertilizer> * 100, <liquid:water> * 100, [<hatchery:chickenmanure>], 2500);
 
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:liquid_fertilizer> * 75, <hatchery:chickenmanure>,2500);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:liquid_fertilizer> * 750, <hatchery:manure_block>,2500);
