@@ -2,7 +2,6 @@ import minetweaker.item.IItemStack;
 
 //Recipe Removals
 recipes.remove(<extrautils2:itembuilderswand>);
-recipes.remove(<craftingtableiv:craftingtableiv>);
 recipes.remove(<hatchery:nest>);
 recipes.remove(<forestry:stamps:3>);
 recipes.remove(<forestry:stamps:2>);
