@@ -16,5 +16,11 @@
         "action": "",
         "health": 20,
         "hostile": false
+    },
+    "Ocelot": {
+        "abilities": ["prevent_fall"],
+        "action": "",
+        "health": 20,
+        "hostile": false
     }
 }
